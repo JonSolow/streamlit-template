@@ -58,6 +58,7 @@ numpy==1.25.2
     # via
     #   altair
     #   pandas
+    #   pandas-stubs
     #   pyarrow
     #   pydeck
     #   streamlit
@@ -72,6 +73,8 @@ pandas==2.0.3
     #   altair
     #   streamlit
     #   streamlit-template (pyproject.toml)
+pandas-stubs==2.0.3.230814
+    # via streamlit-template (pyproject.toml)
 pathspec==0.11.2
     # via black
 pillow==9.5.0
@@ -128,6 +131,8 @@ toolz==0.12.0
     # via altair
 tornado==6.3.3
     # via streamlit
+types-pytz==2023.3.0.1
+    # via pandas-stubs
 typing-extensions==4.7.1
     # via
     #   mypy

@@ -17,6 +17,7 @@ dev = [
     "ruff",
     "mypy",
     "pytest",
+    "pandas-stubs",
     ]
 
 [tool.black]
