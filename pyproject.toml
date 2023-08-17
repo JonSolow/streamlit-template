@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+requires-python = ">=3.9"
+version = "1"
+name = "streamlit-template"
+dependencies = [
+    "streamlit",
+    "numpy",
+    "pandas",
+    ]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "ruff",
+    "mypy",
+    "pytest",
+    "pandas-stubs",
+    ]
+
+[tool.black]
+line-length = 120
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 120
+src = ["src"]
+
+[tool.mypy]
+python_version = "3.11"
