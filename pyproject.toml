@@ -18,3 +18,7 @@ dev = [
     "mypy",
     "pytest",
     ]
+
+[tool.black]
+line-length = 120
+target-version = ["py311"]
