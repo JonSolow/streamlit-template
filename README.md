@@ -12,5 +12,6 @@ Here are some of the features of the template:
 - Linting Configuration [TO-DO] (allows for clean code and quicker detection of possible bugs as one of the first steps in Shift-left testing)
   - [Black](https://black.readthedocs.io/en/stable/index.html)
   - [ruff](https://beta.ruff.rs/docs/)
-  - mypy [TO-DO] (python code type checking)
-- Unit Tests [TO-DO] (create tests of particular units of code to know that your functions will provide the expected behavior or output)
+  - [mypy](https://mypy.readthedocs.io/en/stable/index.html)
+- Unit Tests
+  - [pytest](https://docs.pytest.org/)
