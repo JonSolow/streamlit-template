@@ -3,6 +3,7 @@
 # Arguments for each test
 BLACK_ARGS="--check"
 RUFF_ARGS="check"
+MYPY_ARGS=""
 
 # Use -f for 
 while getopts 'f' OPTION; do
@@ -26,7 +27,11 @@ testheader () {
 APPDIR=/app/src
 TESTSDIR=/app/tests
 
-testheader "Black"
+testheader "black"
 black $BLACK_ARGS $APPDIR $TESTSDIR
-testheader "Ruff"
-ruff $RUFF_ARGS $APPDIR
+
+testheader "ruff"
+ruff $RUFF_ARGS $APPDIR $TESTSDIR
+
+testheader "mypy"
+mypy $MYPY_ARGS $APPDIR $TESTSDIR
