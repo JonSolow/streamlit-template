@@ -3,6 +3,7 @@ services:
     build:
       dockerfile: ./Dockerfile
       context: ./
+      target: service
     ports:
       - '8501:8501'
     environment:
