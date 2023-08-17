@@ -16,10 +16,17 @@ while getopts 'f' OPTION; do
 done
 shift "$(($OPTIND -1))"
 
-set -x
+testheader () {
+    echo -e '\n'
+    echo "*"$emptyvar{1..20}
+    echo $1
+    echo "*"$emptyvar{1..20}
+}
 
 APPDIR=/app/src
 TESTSDIR=/app/tests
 
+testheader "Black"
 black $BLACK_ARGS $APPDIR $TESTSDIR
+testheader "Ruff"
 ruff $RUFF_ARGS $APPDIR
