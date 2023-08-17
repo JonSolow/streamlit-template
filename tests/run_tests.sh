@@ -4,6 +4,7 @@
 BLACK_ARGS="--check"
 RUFF_ARGS="check"
 MYPY_ARGS=""
+PYTEST_ARGS=""
 
 # Use -f for 
 while getopts 'f' OPTION; do
@@ -35,3 +36,6 @@ ruff $RUFF_ARGS $APPDIR $TESTSDIR
 
 testheader "mypy"
 mypy $MYPY_ARGS $APPDIR $TESTSDIR
+
+testheader "pytest"
+pytest $PYTEST_ARGS $TESTSDIR/unit
