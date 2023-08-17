@@ -14,7 +14,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "black",
-    "flake8",
+    "ruff",
     "mypy",
     "pytest",
     ]
@@ -22,3 +22,7 @@ dev = [
 [tool.black]
 line-length = 120
 target-version = ["py311"]
+
+[tool.ruff]
+line-length = 120
+src = ["src"]
