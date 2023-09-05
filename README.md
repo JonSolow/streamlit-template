@@ -9,7 +9,7 @@ Here are some of the features of the template:
 - VSCode .devcontainer for local development: [Documentation](https://code.visualstudio.com/docs/devcontainers/containers)
   - docker-compose.yml
   - Dockerfile
-- Linting Configuration [TO-DO] (allows for clean code and quicker detection of possible bugs as one of the first steps in Shift-left testing)
+- Linting Configuration (allows for clean code and quicker detection of possible bugs as one of the first steps in Shift-left testing)
   - [Black](https://black.readthedocs.io/en/stable/index.html)
   - [ruff](https://beta.ruff.rs/docs/)
   - [mypy](https://mypy.readthedocs.io/en/stable/index.html)
