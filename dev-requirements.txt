@@ -26,7 +26,7 @@ click==8.1.7
     #   streamlit
 gitdb==4.0.10
     # via gitpython
-gitpython==3.1.36
+gitpython==3.1.37
     # via streamlit
 idna==3.4
     # via requests
@@ -38,7 +38,7 @@ jinja2==3.1.2
     # via
     #   altair
     #   pydeck
-jsonschema==4.19.0
+jsonschema==4.19.1
     # via altair
 jsonschema-specifications==2023.7.1
     # via jsonschema
@@ -54,7 +54,7 @@ mypy-extensions==1.0.0
     # via
     #   black
     #   mypy
-numpy==1.25.2
+numpy==1.26.0
     # via
     #   altair
     #   pandas
@@ -69,7 +69,7 @@ packaging==23.1
     #   black
     #   pytest
     #   streamlit
-pandas==2.1.0
+pandas==2.1.1
     # via
     #   altair
     #   streamlit
@@ -88,12 +88,10 @@ protobuf==4.24.3
     # via streamlit
 pyarrow==13.0.0
     # via streamlit
-pydeck==0.8.0
+pydeck==0.8.1b0
     # via streamlit
 pygments==2.16.1
     # via rich
-pympler==1.0.1
-    # via streamlit
 pytest==7.4.2
     # via streamlit-template (pyproject.toml)
 python-dateutil==2.8.2
@@ -102,27 +100,25 @@ python-dateutil==2.8.2
     #   streamlit
 pytz==2023.3.post1
     # via pandas
-pytz-deprecation-shim==0.1.0.post0
-    # via tzlocal
 referencing==0.30.2
     # via
     #   jsonschema
     #   jsonschema-specifications
 requests==2.31.0
     # via streamlit
-rich==13.5.2
+rich==13.5.3
     # via streamlit
 rpds-py==0.10.3
     # via
     #   jsonschema
     #   referencing
-ruff==0.0.289
+ruff==0.0.291
     # via streamlit-template (pyproject.toml)
 six==1.16.0
     # via python-dateutil
-smmap==5.0.0
+smmap==5.0.1
     # via gitdb
-streamlit==1.26.0
+streamlit==1.27.0
     # via streamlit-template (pyproject.toml)
 tenacity==8.2.3
     # via streamlit
@@ -132,23 +128,21 @@ toolz==0.12.0
     # via altair
 tornado==6.3.3
     # via streamlit
-types-pytz==2023.3.0.1
+types-pytz==2023.3.1.1
     # via pandas-stubs
-typing-extensions==4.7.1
+typing-extensions==4.8.0
     # via
     #   mypy
     #   streamlit
 tzdata==2023.3
-    # via
-    #   pandas
-    #   pytz-deprecation-shim
-tzlocal==4.3.1
+    # via pandas
+tzlocal==5.0.1
     # via streamlit
-urllib3==2.0.4
+urllib3==2.0.5
     # via requests
 validators==0.22.0
     # via streamlit
 watchdog==3.0.0
     # via streamlit
-zipp==3.16.2
+zipp==3.17.0
     # via importlib-metadata
