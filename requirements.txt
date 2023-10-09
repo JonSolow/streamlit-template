@@ -4,13 +4,13 @@
 #
 #    pip-compile --output-file=requirements.txt pyproject.toml
 #
-altair==5.1.1
+altair==5.1.2
     # via streamlit
 attrs==23.1.0
     # via
     #   jsonschema
     #   referencing
-blinker==1.6.2
+blinker==1.6.3
     # via streamlit
 cachetools==5.3.1
     # via streamlit
@@ -61,7 +61,7 @@ pandas==2.1.1
     #   streamlit-template (pyproject.toml)
 pillow==10.0.1
     # via streamlit
-protobuf==4.24.3
+protobuf==4.24.4
     # via streamlit
 pyarrow==13.0.0
     # via streamlit
@@ -83,7 +83,7 @@ requests==2.31.0
     # via streamlit
 rich==13.6.0
     # via streamlit
-rpds-py==0.10.3
+rpds-py==0.10.4
     # via
     #   jsonschema
     #   referencing
@@ -91,7 +91,7 @@ six==1.16.0
     # via python-dateutil
 smmap==5.0.1
     # via gitdb
-streamlit==1.27.1
+streamlit==1.27.2
     # via streamlit-template (pyproject.toml)
 tenacity==8.2.3
     # via streamlit
@@ -105,7 +105,7 @@ typing-extensions==4.8.0
     # via streamlit
 tzdata==2023.3
     # via pandas
-tzlocal==5.0.1
+tzlocal==5.1
     # via streamlit
 urllib3==2.0.6
     # via requests
