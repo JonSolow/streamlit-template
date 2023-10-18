@@ -22,7 +22,7 @@ click==8.1.7
     # via streamlit
 gitdb==4.0.10
     # via gitpython
-gitpython==3.1.37
+gitpython==3.1.40
     # via streamlit
 idna==3.4
     # via requests
@@ -42,7 +42,7 @@ markupsafe==2.1.3
     # via jinja2
 mdurl==0.1.2
     # via markdown-it-py
-numpy==1.26.0
+numpy==1.26.1
     # via
     #   altair
     #   pandas
@@ -59,7 +59,7 @@ pandas==2.1.1
     #   altair
     #   streamlit
     #   streamlit-template (pyproject.toml)
-pillow==10.0.1
+pillow==10.1.0
     # via streamlit
 protobuf==4.24.4
     # via streamlit
@@ -83,7 +83,7 @@ requests==2.31.0
     # via streamlit
 rich==13.6.0
     # via streamlit
-rpds-py==0.10.4
+rpds-py==0.10.6
     # via
     #   jsonschema
     #   referencing
@@ -107,7 +107,7 @@ tzdata==2023.3
     # via pandas
 tzlocal==5.1
     # via streamlit
-urllib3==2.0.6
+urllib3==2.0.7
     # via requests
 validators==0.22.0
     # via streamlit
