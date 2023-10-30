@@ -14,10 +14,11 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "black",
-    "ruff",
+    "jupyter",
     "mypy",
     "pytest",
     "pandas-stubs",
+    "ruff",
     ]
 
 [tool.black]
