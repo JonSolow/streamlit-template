@@ -63,7 +63,7 @@ pillow==10.1.0
     # via streamlit
 protobuf==4.24.4
     # via streamlit
-pyarrow==13.0.0
+pyarrow==14.0.1
     # via streamlit
 pydeck==0.8.1b0
     # via streamlit
