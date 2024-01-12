@@ -91,7 +91,7 @@ six==1.16.0
     # via python-dateutil
 smmap==5.0.1
     # via gitdb
-streamlit==1.29.0
+streamlit==1.30.0
     # via streamlit-template (pyproject.toml)
 tenacity==8.2.3
     # via streamlit
