@@ -28,7 +28,7 @@ babel==2.14.0
     # via jupyterlab-server
 beautifulsoup4==4.12.3
     # via nbconvert
-black==24.2.0
+black==24.3.0
     # via streamlit-template (pyproject.toml)
 bleach==6.1.0
     # via nbconvert
