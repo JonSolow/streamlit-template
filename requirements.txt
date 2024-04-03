@@ -59,7 +59,7 @@ pandas==2.2.0
     #   altair
     #   streamlit
     #   streamlit-template (pyproject.toml)
-pillow==10.2.0
+pillow==10.3.0
     # via streamlit
 protobuf==4.25.3
     # via streamlit
