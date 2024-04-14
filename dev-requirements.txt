@@ -75,7 +75,7 @@ httpcore==1.0.3
     # via httpx
 httpx==0.26.0
     # via jupyterlab
-idna==3.6
+idna==3.7
     # via
     #   anyio
     #   httpx
@@ -245,7 +245,7 @@ pathspec==0.12.1
     # via black
 pexpect==4.9.0
     # via ipython
-pillow==10.2.0
+pillow==10.3.0
     # via streamlit
 platformdirs==4.2.0
     # via
