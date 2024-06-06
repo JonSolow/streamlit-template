@@ -312,7 +312,7 @@ referencing==0.33.0
     #   jsonschema
     #   jsonschema-specifications
     #   jupyter-events
-requests==2.31.0
+requests==2.32.2
     # via
     #   jupyterlab-server
     #   streamlit
@@ -364,7 +364,7 @@ toml==0.10.2
     # via streamlit
 toolz==0.12.1
     # via altair
-tornado==6.4
+tornado==6.4.1
     # via
     #   ipykernel
     #   jupyter-client
