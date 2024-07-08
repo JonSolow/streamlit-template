@@ -14,7 +14,7 @@ blinker==1.7.0
     # via streamlit
 cachetools==5.3.2
     # via streamlit
-certifi==2024.2.2
+certifi==2024.7.4
     # via requests
 charset-normalizer==3.3.2
     # via requests
@@ -79,7 +79,7 @@ referencing==0.33.0
     # via
     #   jsonschema
     #   jsonschema-specifications
-requests==2.31.0
+requests==2.32.2
     # via streamlit
 rich==13.7.0
     # via streamlit
@@ -99,7 +99,7 @@ toml==0.10.2
     # via streamlit
 toolz==0.12.1
     # via altair
-tornado==6.4
+tornado==6.4.1
     # via streamlit
 typing-extensions==4.9.0
     # via streamlit
@@ -107,7 +107,7 @@ tzdata==2024.1
     # via pandas
 tzlocal==5.2
     # via streamlit
-urllib3==2.2.1
+urllib3==2.2.2
     # via requests
 validators==0.22.0
     # via streamlit
