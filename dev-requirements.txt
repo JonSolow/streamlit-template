@@ -422,5 +422,5 @@ websocket-client==1.7.0
     # via jupyter-server
 widgetsnbextension==4.0.10
     # via ipywidgets
-zipp==3.17.0
+zipp==3.19.1
     # via importlib-metadata

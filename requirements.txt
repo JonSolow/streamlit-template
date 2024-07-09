@@ -113,5 +113,5 @@ validators==0.22.0
     # via streamlit
 watchdog==4.0.0
     # via streamlit
-zipp==3.17.0
+zipp==3.19.1
     # via importlib-metadata
