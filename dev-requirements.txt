@@ -198,7 +198,7 @@ nbformat==5.9.2
     #   nbconvert
 nest-asyncio==1.6.0
     # via ipykernel
-notebook==7.1.0
+notebook==7.2.2
     # via jupyter
 notebook-shim==0.2.4
     # via
